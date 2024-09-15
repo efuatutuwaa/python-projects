@@ -1,10 +1,6 @@
 convert_from = input("Enter Starting Unit of Measurement(inches, feet, or yards):")
 convert_to = input("Enter Unit of Measurement to Convert to(inches, feet, or yards):")
 
-number_of_inches = input("Enter Starting Measurement in Inches:")
-number_of_feet = input("Enter Starting Measurement in Feet:")
-number_of_yards = input("Enter Starting Measurement in Yards:")
-
 if convert_from.lower() in ['inches', 'inch', 'in']:
     number_of_inches = int(input("Enter Starting Measurement in Inches:"))
     if convert_to.lower() in ['feet', 'ft']:
